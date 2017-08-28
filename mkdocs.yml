@@ -1,0 +1,7 @@
+site_name: Documentación de la aplicación Smart Security
+pages:
+    - Inicio: index.md
+    - Manual de usuario: userManual.md
+    - Desarrollo: development.md
+    - Acerca de: about.md
+theme: readthedocs

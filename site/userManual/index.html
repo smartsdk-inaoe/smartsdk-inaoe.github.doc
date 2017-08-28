@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Manual de usuario - Documentación de la aplicación Smart Security</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Manual de usuario";
+    var mkdocs_page_input_path = "userManual.md";
+    var mkdocs_page_url = "/userManual/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Documentación de la aplicación Smart Security</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Inicio</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">Manual de usuario</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#manual-de-la-aplicacion-smart-security">Manual de la aplicación Smart Security</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#requerimientos">Requerimientos</a></li>
+        
+            <li><a class="toctree-l3" href="#interfaz-de-usuario">Interfaz de Usuario</a></li>
+        
+            <li><a class="toctree-l3" href="#registro-de-un-usuario">Registro de un usuario</a></li>
+        
+            <li><a class="toctree-l3" href="#inicio-de-sesion">Inicio de sesión</a></li>
+        
+            <li><a class="toctree-l3" href="#grabacion-por-movimiento">Grabación por movimiento</a></li>
+        
+            <li><a class="toctree-l3" href="#visualizacion-de-una-camara">Visualización de una cámara</a></li>
+        
+            <li><a class="toctree-l3" href="#visualizacion-de-los-ultimos-eventos-detectados-in-progress">Visualización de los últimos eventos detectados (In progress).</a></li>
+        
+            <li><a class="toctree-l3" href="#vizualizacion-de-varias-cameras">Vizualización de varias cameras</a></li>
+        
+            <li><a class="toctree-l3" href="#busqueda">Búsqueda</a></li>
+        
+            <li><a class="toctree-l3" href="#configuracion">Configuración</a></li>
+        
+            <li><a class="toctree-l3" href="#gestion-de-camaras">Gestión de cámaras</a></li>
+        
+            <li><a class="toctree-l3" href="#gestion-de-usuarios-in-progress">Gestión de usuarios (in progress)</a></li>
+        
+        </ul>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../development/">Desarrollo</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../about/">Acerca de</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Documentación de la aplicación Smart Security</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Manual de usuario</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="manual-de-la-aplicacion-smart-security">Manual de la aplicación Smart Security</h1>
+<h2 id="requerimientos">Requerimientos</h2>
+<p>Para un funcionanmiento adecuado debe utilizarse <code>Google Chrome</code> como navegador .</p>
+<h2 id="interfaz-de-usuario">Interfaz de Usuario</h2>
+<p>La interfaz gráfica de usuario fue desarrollada utilizando el fremwork <code>Web2Py</code>, el cual permite el desarrollo rápido de aplicacciones web con el lenguaje Python como base. Este framework utiliza el patrón arquitectónico Modelo Vista-Controlador (MVC) para el desarrollo de éste tipo de aplicaciones.</p>
+<p>El prototipo actual del sistema de Smart Security ofrece cinco diferentes vistas al usuario: <code>Login</code>, <code>Main</code>, <code>Multiple Cameras</code>, <code>Search</code> and <code>Management</code>. </p>
+<h2 id="registro-de-un-usuario">Registro de un usuario</h2>
+<p>La vista <code>Login</code> evita que usuarios no autorizados accesen al sistema bloqueando el resto de las vistas y los privilegios de gestión. Es por esto que antes de utilizar el sistema se requiere realizar un proceso de registro.</p>
+<p>Para registrar un usuario nuevo:</p>
+<ol>
+<li>
+<p>Click en el menú <code>Login In</code> y seleccionar la opción <code>Sign up</code>(esquina superior derecha de la vista <code>Login</code>).</p>
+</li>
+<li>
+<p>En la vista <code>Login</code> debemos indicar el nombre de usuario y el password del usuario nuevo.</p>
+</li>
+</ol>
+<p><img alt="Login" src="../images/login.png" /></p>
+<p>La información se envía al adminstrador del sistema para autorizar el acceso del usuario nuevo.</p>
+<h2 id="inicio-de-sesion">Inicio de sesión</h2>
+<p>Una vez que se cuenta con usuario registrado, es posible accesar al sistema utilizando la vista <code>Login</code>.</p>
+<p>Para accesar al sistema:</p>
+<ol>
+<li>
+<p>Click en la opción<code>Login</code> y seleccionar la opción <code>Log in</code>(esquina superior detecha de la vista <code>Login</code>).</p>
+</li>
+<li>
+<p>En la vista <code>Login</code> indicar el nombre y contraseña de usuario.</p>
+</li>
+</ol>
+<h2 id="grabacion-por-movimiento">Grabación por movimiento</h2>
+<p>De manera predeterminada el sistema es capaz de grabar video por movimiento detectado en la escena.</p>
+<h2 id="visualizacion-de-una-camara">Visualización de una cámara</h2>
+<p>Para visualizar una cámara en específico:</p>
+<ol>
+<li>
+<p>Click en la opción <code>Main</code>.</p>
+</li>
+<li>
+<p>Cuando la vista <code>Main</code> este cargada, en la barra de desplazamiento inferior seleccionar la cámara deseada.</p>
+</li>
+</ol>
+<p><img alt="Main" src="../images/main.png" /></p>
+<h2 id="visualizacion-de-los-ultimos-eventos-detectados-in-progress">Visualización de los últimos eventos detectados (In progress).</h2>
+<p>Toda actividad detectada por el sistema es reportada y visualizada al usuario. Para ver un listado de las actividades detectadas:</p>
+<ol>
+<li>
+<p>Click en la opción <code>Main</code>.</p>
+</li>
+<li>
+<p>Ir al cuadro de texto <code>Last Activity</code> (lado derecho de la vista <code>Main</code>).</p>
+</li>
+</ol>
+<h2 id="vizualizacion-de-varias-cameras">Vizualización de varias cameras</h2>
+<p>Para un panorama general del área vigilada, el sistema es capaz de mostrar todas las cámaras registradas en la vista <code>Multiple Cameras</code>.</p>
+<ol>
+<li>
+<p>Click en la opción <code>Multiple Cameras</code>.</p>
+</li>
+<li>
+<p>Todas las cámaras registradas estan visibles.</p>
+</li>
+</ol>
+<p><img alt="Multiple" src="../images/multipleCameras.png" /></p>
+<h2 id="busqueda">Búsqueda</h2>
+<p>El sistema permite al usuario buscar videos asociados con los eventos detectados. Dos criterios definen el tipo de búsqueda a relizar: por anotación o por imagen.</p>
+<p><img alt="Search" src="../images/search.png" /></p>
+<h3 id="busqueda-por-anotacion-filtros">Busqueda por anotación (Filtros)</h3>
+<p>Esta opción de búsqueda contiene opciones para buscar por tipo de evento (Persona o vehicle detectado), por fecha de detección y/o por el id de la cámara de interes.</p>
+<p>Para buscar videos por anotacion:</p>
+<ol>
+<li>
+<p>Click en the opción <code>Search</code>.</p>
+</li>
+<li>
+<p>Seleccionar the  botón de radio <code>Filters</code>.</p>
+</li>
+<li>
+<p>En la vista <code>Search</code>, definir los subcriterios de búsqueda.</p>
+</li>
+<li>
+<p><code>Event Type</code>: Seleccionar el typo de evento que quieres buscar. Si ninguna opción se selecciona, se mostrarán todos los tipos de eventos.</p>
+</li>
+<li>
+<p><code>Camera id</code>: Seleccionar el id de la cámara deseada.</p>
+</li>
+<li>
+<p><code>Date</code>: El usuario puede definir un rango de fechas a través de de dos calendarios.</p>
+</li>
+<li>
+<p>Click en el botón <code>Filter Events</code>.</p>
+</li>
+<li>
+<p>El resultado de la búsqueda es visualizado en el cuadro de texto inferior.</p>
+</li>
+</ol>
+<h3 id="busqueda-por-imagenrostro">Búsqueda por imagen(Rostro)</h3>
+<p>Esta opción de búsqueda permite al usuario buscar a una persona por rostro.</p>
+<p>Para buscar a una persona (por rostro) en el repositorio:</p>
+<ol>
+<li>
+<p>Click en la opción <code>Search</code>.</p>
+</li>
+<li>
+<p>Seleccionar el botón de radio <code>Face</code>.</p>
+</li>
+<li>
+<p>Click en botón <code>File</code>.</p>
+</li>
+<li>
+<p>Seleccionar el archivo de imagen que contiene el rostro de la persona a buscar.</p>
+</li>
+<li>
+<p>Una vez seleccionado el archivo, click en el botón <code>Filter Events</code>.</p>
+</li>
+<li>
+<p>El resultado de la búsqueda es visualizado en el cuadro de texto inferior.</p>
+</li>
+</ol>
+<h2 id="configuracion">Configuración</h2>
+<p><img alt="Filters" src="../images/managementFilters.png" /></p>
+<p>Para configurar como el sistema resalta el evento detectado sobre el streaming de video:</p>
+<ol>
+<li>
+<p>Click en el menú <code>Management</code>.</p>
+</li>
+<li>
+<p>Seleccionar la opción <code>Filters</code>.</p>
+</li>
+<li>
+<p>En la sección <code>Configure Filters</code>, seleccionar el <code>Event</code>, <code>Text tag</code> and <code>Color</code> deseado para visualizar cuando el evento es detectado.</p>
+</li>
+<li>
+<p>Click en el botón <code>Submit</code>.</p>
+</li>
+</ol>
+<h2 id="gestion-de-camaras">Gestión de cámaras</h2>
+<p><img alt="Cameras" src="../images/managementCameras.png" /></p>
+<h3 id="agregar-una-camera">Agregar una camera</h3>
+<ol>
+<li>
+<p>Click en el menú <code>Management</code>.</p>
+</li>
+<li>
+<p>Seleccionar la opción <code>Cameras</code>.</p>
+</li>
+<li>
+<p>En la sección <code>Cameras Management</code>, click en el botón <code>Add Camera</code>.</p>
+</li>
+<li>
+<p>Indicar el <code>id</code> de la nueva cámara.</p>
+</li>
+<li>
+<p>Indicar la <code>url</code> (rtsp) de la cámara nueva.</p>
+</li>
+<li>
+<p>Click en el botón <code>Submit</code>.</p>
+</li>
+</ol>
+<h2 id="gestion-de-usuarios-in-progress">Gestión de usuarios (in progress)</h2>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../development/" class="btn btn-neutral float-right" title="Desarrollo">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href=".." class="btn btn-neutral" title="Inicio"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+    
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../development/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script src="../js/theme.js"></script>
+
+</body>
+</html>

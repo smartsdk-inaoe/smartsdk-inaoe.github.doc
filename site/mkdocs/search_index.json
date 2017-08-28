@@ -1,0 +1,154 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Aplicaci\u00f3n Smart Security\n\n\nIntroducci\u00f3n\n\n\nObservar los eventos que suceden en un \u00e1rea video vigilada puede ser una tarea compleja. Un sistema de video vigilancia tradicional env\u00eda informaci\u00f3n visual al sistema central en tiempo real y es posible que el usuario final (comunmente un guardia de seguridad) no pueda poner atenci\u00f3n a toda la informaci\u00f3n visual generada.\n\n\n\n\nLa aplicaci\u00f3n Smart Security busca asistir al guardia de seguridad para prevenir situaciones de riesgo y consecuentemente mejorar la calidad de vida de las personas que viven el \u00e1rea vigilada. \n\n\nLa aplicaci\u00f3n Smart Securityse enfoca en detectar y analizar situaciones de riesgo, tales como: robo, control de acceso, detecci\u00f3n de personas, peleas, an\u00e1lisis de multitudes, etc., a trav\u00e9s de la combinaci\u00f3n de video c\u00e1maras y sensores tanto en interiores como exteriores. Por ejemplo, estacionamientos y edificios.\n\n\nAudiencia\n\n\n\u2794   Usuarios quienes desean probar la aplicaci\u00f3n.\n\n\n\u2794   Desarrolladores y modeladores de conocimiento interesados en contribuir a la aplicaci\u00f3n",
+            "title": "Inicio"
+        },
+        {
+            "location": "/#aplicacion-smart-security",
+            "text": "",
+            "title": "Aplicaci\u00f3n Smart Security"
+        },
+        {
+            "location": "/#introduccion",
+            "text": "Observar los eventos que suceden en un \u00e1rea video vigilada puede ser una tarea compleja. Un sistema de video vigilancia tradicional env\u00eda informaci\u00f3n visual al sistema central en tiempo real y es posible que el usuario final (comunmente un guardia de seguridad) no pueda poner atenci\u00f3n a toda la informaci\u00f3n visual generada.   La aplicaci\u00f3n Smart Security busca asistir al guardia de seguridad para prevenir situaciones de riesgo y consecuentemente mejorar la calidad de vida de las personas que viven el \u00e1rea vigilada.   La aplicaci\u00f3n Smart Securityse enfoca en detectar y analizar situaciones de riesgo, tales como: robo, control de acceso, detecci\u00f3n de personas, peleas, an\u00e1lisis de multitudes, etc., a trav\u00e9s de la combinaci\u00f3n de video c\u00e1maras y sensores tanto en interiores como exteriores. Por ejemplo, estacionamientos y edificios.",
+            "title": "Introducci\u00f3n"
+        },
+        {
+            "location": "/#audiencia",
+            "text": "\u2794   Usuarios quienes desean probar la aplicaci\u00f3n.  \u2794   Desarrolladores y modeladores de conocimiento interesados en contribuir a la aplicaci\u00f3n",
+            "title": "Audiencia"
+        },
+        {
+            "location": "/userManual/",
+            "text": "Manual de la aplicaci\u00f3n Smart Security\n\n\nRequerimientos\n\n\nPara un funcionanmiento adecuado debe utilizarse \nGoogle Chrome\n como navegador .\n\n\nInterfaz de Usuario\n\n\nLa interfaz gr\u00e1fica de usuario fue desarrollada utilizando el fremwork \nWeb2Py\n, el cual permite el desarrollo r\u00e1pido de aplicacciones web con el lenguaje Python como base. Este framework utiliza el patr\u00f3n arquitect\u00f3nico Modelo Vista-Controlador (MVC) para el desarrollo de \u00e9ste tipo de aplicaciones.\n\n\nEl prototipo actual del sistema de Smart Security ofrece cinco diferentes vistas al usuario: \nLogin\n, \nMain\n, \nMultiple Cameras\n, \nSearch\n and \nManagement\n. \n\n\nRegistro de un usuario\n\n\nLa vista \nLogin\n evita que usuarios no autorizados accesen al sistema bloqueando el resto de las vistas y los privilegios de gesti\u00f3n. Es por esto que antes de utilizar el sistema se requiere realizar un proceso de registro.\n\n\nPara registrar un usuario nuevo:\n\n\n\n\n\n\nClick en el men\u00fa \nLogin In\n y seleccionar la opci\u00f3n \nSign up\n(esquina superior derecha de la vista \nLogin\n).\n\n\n\n\n\n\nEn la vista \nLogin\n debemos indicar el nombre de usuario y el password del usuario nuevo.\n\n\n\n\n\n\n\n\nLa informaci\u00f3n se env\u00eda al adminstrador del sistema para autorizar el acceso del usuario nuevo.\n\n\nInicio de sesi\u00f3n\n\n\nUna vez que se cuenta con usuario registrado, es posible accesar al sistema utilizando la vista \nLogin\n.\n\n\nPara accesar al sistema:\n\n\n\n\n\n\nClick en la opci\u00f3n\nLogin\n y seleccionar la opci\u00f3n \nLog in\n(esquina superior detecha de la vista \nLogin\n).\n\n\n\n\n\n\nEn la vista \nLogin\n indicar el nombre y contrase\u00f1a de usuario.\n\n\n\n\n\n\nGrabaci\u00f3n por movimiento\n\n\nDe manera predeterminada el sistema es capaz de grabar video por movimiento detectado en la escena.\n\n\nVisualizaci\u00f3n de una c\u00e1mara\n\n\nPara visualizar una c\u00e1mara en espec\u00edfico:\n\n\n\n\n\n\nClick en la opci\u00f3n \nMain\n.\n\n\n\n\n\n\nCuando la vista \nMain\n este cargada, en la barra de desplazamiento inferior seleccionar la c\u00e1mara deseada.\n\n\n\n\n\n\n\n\nVisualizaci\u00f3n de los \u00faltimos eventos detectados (In progress).\n\n\nToda actividad detectada por el sistema es reportada y visualizada al usuario. Para ver un listado de las actividades detectadas:\n\n\n\n\n\n\nClick en la opci\u00f3n \nMain\n.\n\n\n\n\n\n\nIr al cuadro de texto \nLast Activity\n (lado derecho de la vista \nMain\n).\n\n\n\n\n\n\nVizualizaci\u00f3n de varias cameras\n\n\nPara un panorama general del \u00e1rea vigilada, el sistema es capaz de mostrar todas las c\u00e1maras registradas en la vista \nMultiple Cameras\n.\n\n\n\n\n\n\nClick en la opci\u00f3n \nMultiple Cameras\n.\n\n\n\n\n\n\nTodas las c\u00e1maras registradas estan visibles.\n\n\n\n\n\n\n\n\nB\u00fasqueda\n\n\nEl sistema permite al usuario buscar videos asociados con los eventos detectados. Dos criterios definen el tipo de b\u00fasqueda a relizar: por anotaci\u00f3n o por imagen.\n\n\n\n\nBusqueda por anotaci\u00f3n (Filtros)\n\n\nEsta opci\u00f3n de b\u00fasqueda contiene opciones para buscar por tipo de evento (Persona o vehicle detectado), por fecha de detecci\u00f3n y/o por el id de la c\u00e1mara de interes.\n\n\nPara buscar videos por anotacion:\n\n\n\n\n\n\nClick en the opci\u00f3n \nSearch\n.\n\n\n\n\n\n\nSeleccionar the  bot\u00f3n de radio \nFilters\n.\n\n\n\n\n\n\nEn la vista \nSearch\n, definir los subcriterios de b\u00fasqueda.\n\n\n\n\n\n\nEvent Type\n: Seleccionar el typo de evento que quieres buscar. Si ninguna opci\u00f3n se selecciona, se mostrar\u00e1n todos los tipos de eventos.\n\n\n\n\n\n\nCamera id\n: Seleccionar el id de la c\u00e1mara deseada.\n\n\n\n\n\n\nDate\n: El usuario puede definir un rango de fechas a trav\u00e9s de de dos calendarios.\n\n\n\n\n\n\nClick en el bot\u00f3n \nFilter Events\n.\n\n\n\n\n\n\nEl resultado de la b\u00fasqueda es visualizado en el cuadro de texto inferior.\n\n\n\n\n\n\nB\u00fasqueda por imagen(Rostro)\n\n\nEsta opci\u00f3n de b\u00fasqueda permite al usuario buscar a una persona por rostro.\n\n\nPara buscar a una persona (por rostro) en el repositorio:\n\n\n\n\n\n\nClick en la opci\u00f3n \nSearch\n.\n\n\n\n\n\n\nSeleccionar el bot\u00f3n de radio \nFace\n.\n\n\n\n\n\n\nClick en bot\u00f3n \nFile\n.\n\n\n\n\n\n\nSeleccionar el archivo de imagen que contiene el rostro de la persona a buscar.\n\n\n\n\n\n\nUna vez seleccionado el archivo, click en el bot\u00f3n \nFilter Events\n.\n\n\n\n\n\n\nEl resultado de la b\u00fasqueda es visualizado en el cuadro de texto inferior.\n\n\n\n\n\n\nConfiguraci\u00f3n\n\n\n\n\nPara configurar como el sistema resalta el evento detectado sobre el streaming de video:\n\n\n\n\n\n\nClick en el men\u00fa \nManagement\n.\n\n\n\n\n\n\nSeleccionar la opci\u00f3n \nFilters\n.\n\n\n\n\n\n\nEn la secci\u00f3n \nConfigure Filters\n, seleccionar el \nEvent\n, \nText tag\n and \nColor\n deseado para visualizar cuando el evento es detectado.\n\n\n\n\n\n\nClick en el bot\u00f3n \nSubmit\n.\n\n\n\n\n\n\nGesti\u00f3n de c\u00e1maras\n\n\n\n\nAgregar una camera\n\n\n\n\n\n\nClick en el men\u00fa \nManagement\n.\n\n\n\n\n\n\nSeleccionar la opci\u00f3n \nCameras\n.\n\n\n\n\n\n\nEn la secci\u00f3n \nCameras Management\n, click en el bot\u00f3n \nAdd Camera\n.\n\n\n\n\n\n\nIndicar el \nid\n de la nueva c\u00e1mara.\n\n\n\n\n\n\nIndicar la \nurl\n (rtsp) de la c\u00e1mara nueva.\n\n\n\n\n\n\nClick en el bot\u00f3n \nSubmit\n.\n\n\n\n\n\n\nGesti\u00f3n de usuarios (in progress)",
+            "title": "Manual de usuario"
+        },
+        {
+            "location": "/userManual/#manual-de-la-aplicacion-smart-security",
+            "text": "",
+            "title": "Manual de la aplicaci\u00f3n Smart Security"
+        },
+        {
+            "location": "/userManual/#requerimientos",
+            "text": "Para un funcionanmiento adecuado debe utilizarse  Google Chrome  como navegador .",
+            "title": "Requerimientos"
+        },
+        {
+            "location": "/userManual/#interfaz-de-usuario",
+            "text": "La interfaz gr\u00e1fica de usuario fue desarrollada utilizando el fremwork  Web2Py , el cual permite el desarrollo r\u00e1pido de aplicacciones web con el lenguaje Python como base. Este framework utiliza el patr\u00f3n arquitect\u00f3nico Modelo Vista-Controlador (MVC) para el desarrollo de \u00e9ste tipo de aplicaciones.  El prototipo actual del sistema de Smart Security ofrece cinco diferentes vistas al usuario:  Login ,  Main ,  Multiple Cameras ,  Search  and  Management .",
+            "title": "Interfaz de Usuario"
+        },
+        {
+            "location": "/userManual/#registro-de-un-usuario",
+            "text": "La vista  Login  evita que usuarios no autorizados accesen al sistema bloqueando el resto de las vistas y los privilegios de gesti\u00f3n. Es por esto que antes de utilizar el sistema se requiere realizar un proceso de registro.  Para registrar un usuario nuevo:    Click en el men\u00fa  Login In  y seleccionar la opci\u00f3n  Sign up (esquina superior derecha de la vista  Login ).    En la vista  Login  debemos indicar el nombre de usuario y el password del usuario nuevo.     La informaci\u00f3n se env\u00eda al adminstrador del sistema para autorizar el acceso del usuario nuevo.",
+            "title": "Registro de un usuario"
+        },
+        {
+            "location": "/userManual/#inicio-de-sesion",
+            "text": "Una vez que se cuenta con usuario registrado, es posible accesar al sistema utilizando la vista  Login .  Para accesar al sistema:    Click en la opci\u00f3n Login  y seleccionar la opci\u00f3n  Log in (esquina superior detecha de la vista  Login ).    En la vista  Login  indicar el nombre y contrase\u00f1a de usuario.",
+            "title": "Inicio de sesi\u00f3n"
+        },
+        {
+            "location": "/userManual/#grabacion-por-movimiento",
+            "text": "De manera predeterminada el sistema es capaz de grabar video por movimiento detectado en la escena.",
+            "title": "Grabaci\u00f3n por movimiento"
+        },
+        {
+            "location": "/userManual/#visualizacion-de-una-camara",
+            "text": "Para visualizar una c\u00e1mara en espec\u00edfico:    Click en la opci\u00f3n  Main .    Cuando la vista  Main  este cargada, en la barra de desplazamiento inferior seleccionar la c\u00e1mara deseada.",
+            "title": "Visualizaci\u00f3n de una c\u00e1mara"
+        },
+        {
+            "location": "/userManual/#visualizacion-de-los-ultimos-eventos-detectados-in-progress",
+            "text": "Toda actividad detectada por el sistema es reportada y visualizada al usuario. Para ver un listado de las actividades detectadas:    Click en la opci\u00f3n  Main .    Ir al cuadro de texto  Last Activity  (lado derecho de la vista  Main ).",
+            "title": "Visualizaci\u00f3n de los \u00faltimos eventos detectados (In progress)."
+        },
+        {
+            "location": "/userManual/#vizualizacion-de-varias-cameras",
+            "text": "Para un panorama general del \u00e1rea vigilada, el sistema es capaz de mostrar todas las c\u00e1maras registradas en la vista  Multiple Cameras .    Click en la opci\u00f3n  Multiple Cameras .    Todas las c\u00e1maras registradas estan visibles.",
+            "title": "Vizualizaci\u00f3n de varias cameras"
+        },
+        {
+            "location": "/userManual/#busqueda",
+            "text": "El sistema permite al usuario buscar videos asociados con los eventos detectados. Dos criterios definen el tipo de b\u00fasqueda a relizar: por anotaci\u00f3n o por imagen.",
+            "title": "B\u00fasqueda"
+        },
+        {
+            "location": "/userManual/#busqueda-por-anotacion-filtros",
+            "text": "Esta opci\u00f3n de b\u00fasqueda contiene opciones para buscar por tipo de evento (Persona o vehicle detectado), por fecha de detecci\u00f3n y/o por el id de la c\u00e1mara de interes.  Para buscar videos por anotacion:    Click en the opci\u00f3n  Search .    Seleccionar the  bot\u00f3n de radio  Filters .    En la vista  Search , definir los subcriterios de b\u00fasqueda.    Event Type : Seleccionar el typo de evento que quieres buscar. Si ninguna opci\u00f3n se selecciona, se mostrar\u00e1n todos los tipos de eventos.    Camera id : Seleccionar el id de la c\u00e1mara deseada.    Date : El usuario puede definir un rango de fechas a trav\u00e9s de de dos calendarios.    Click en el bot\u00f3n  Filter Events .    El resultado de la b\u00fasqueda es visualizado en el cuadro de texto inferior.",
+            "title": "Busqueda por anotaci\u00f3n (Filtros)"
+        },
+        {
+            "location": "/userManual/#busqueda-por-imagenrostro",
+            "text": "Esta opci\u00f3n de b\u00fasqueda permite al usuario buscar a una persona por rostro.  Para buscar a una persona (por rostro) en el repositorio:    Click en la opci\u00f3n  Search .    Seleccionar el bot\u00f3n de radio  Face .    Click en bot\u00f3n  File .    Seleccionar el archivo de imagen que contiene el rostro de la persona a buscar.    Una vez seleccionado el archivo, click en el bot\u00f3n  Filter Events .    El resultado de la b\u00fasqueda es visualizado en el cuadro de texto inferior.",
+            "title": "B\u00fasqueda por imagen(Rostro)"
+        },
+        {
+            "location": "/userManual/#configuracion",
+            "text": "Para configurar como el sistema resalta el evento detectado sobre el streaming de video:    Click en el men\u00fa  Management .    Seleccionar la opci\u00f3n  Filters .    En la secci\u00f3n  Configure Filters , seleccionar el  Event ,  Text tag  and  Color  deseado para visualizar cuando el evento es detectado.    Click en el bot\u00f3n  Submit .",
+            "title": "Configuraci\u00f3n"
+        },
+        {
+            "location": "/userManual/#gestion-de-camaras",
+            "text": "",
+            "title": "Gesti\u00f3n de c\u00e1maras"
+        },
+        {
+            "location": "/userManual/#agregar-una-camera",
+            "text": "Click en el men\u00fa  Management .    Seleccionar la opci\u00f3n  Cameras .    En la secci\u00f3n  Cameras Management , click en el bot\u00f3n  Add Camera .    Indicar el  id  de la nueva c\u00e1mara.    Indicar la  url  (rtsp) de la c\u00e1mara nueva.    Click en el bot\u00f3n  Submit .",
+            "title": "Agregar una camera"
+        },
+        {
+            "location": "/userManual/#gestion-de-usuarios-in-progress",
+            "text": "",
+            "title": "Gesti\u00f3n de usuarios (in progress)"
+        },
+        {
+            "location": "/development/",
+            "text": "Documentaci\u00f3n de la aplicaci\u00f3n Smart Security\n\n\nRequirimientos\n\n\nLa actual versi\u00f3n del sistema tiene los siguientes requerimientos de hardware para pre-procesamiento.\n\n\nAl menos 32 GB de RAM.\nIntel core i7, 3.4 Ghz.\nAl menos 500 Gb de hd (1TB recomendado).\n\n\n\nRequerimientos de software:\n\n\nUbuntu 14.04 LTS\nKurento Media Server 6.1.1\nMaven 3.0.5\nJava 1.8.0.131\nWeb2py\nOpenCV 2.4\n\n\n\nArquitectura\n\n\nLa arquitectura para la aplicaci\u00f3n Smart Security se desarrolla con el fin de detectar eventos de riesgo basado en las adquisici\u00f3n de video desde video c\u00e1maras conectadas a una red. El video es analizado para detectar, etiquetar, almacenar y resaltar de manera autom\u00e1tica eventos de seguridad relevantes.\n\n\n\n\nPara la gesti\u00f3n del video proveniente de las c\u00e1maras utilizamos \nKurento\n, Kurento Media Server (KMS) para ser m\u00e1s exactos. KMS esta basado en \nMedia Elements\n y \nMedia Pipelines\n. Los primeros consisten en modulos que llevan a cabo una acci\u00f3n espec\u00edfica reciviendo o enviando streaming. Los segundos, son una cadena de elementos media. Para la aplicaci\u00f3n de seguridad hemos desarrollado un conjunto de filtros capaces de detectar objectos (personas y veh\u00edculos) en movimiento dentro de una escena, clasificar tales objectos y seguirlos. En una capa siguiente utilizaremos esta informaci\u00f3n para detectar eventos de seguridad. La informaci\u00f3n inferidad por los filtros en la fase de procesamiento es enviada al Orion Context Broker (OCB). \n\n\nBackend de la aplicaci\u00f3n Smart Security\n\n\nEl Back End es el gestor del streaming proveniente de las c\u00e1maras. El m\u00f3dulo requiere interactuar con la interfaz de usuario con el fin de habilitar o deshabilitar capacidades del sistema, asi como para notificar al usuario los eventos detectados.\n\n\nDe esta forma, la principal contribuci\u00f3n de la aplicaci\u00f3n se enfoca en el desarrollo de algoritmos para detectar diferentes tipod de eventos visuales. La actual versi\u00f3n del sistema es capaz de detectar movimiento (basada en SubSENSE para detecc\u00f3n de blobs), personas y vehiculos.\n\n\nFrontend de la aplicaci\u00f3n Smart Security\n\n\nCon el fin de visualizar toda informaci\u00f3n generada por el Backend hemos desarrolado una IGU basada en Web2py. Las principales funcionalidades son con respecto a Eventos, Gestion de usuarios, c\u00e1maras y configuraciones. La IGU dise\u00f1ada permite al usuario visualizar el flujo de video y los eventos detectado online. Otra capacidad que esta siendo desarrollada es la de b\u00fasqueda que permitira consultar los videos almacenados por el sistema.",
+            "title": "Desarrollo"
+        },
+        {
+            "location": "/development/#documentacion-de-la-aplicacion-smart-security",
+            "text": "",
+            "title": "Documentaci\u00f3n de la aplicaci\u00f3n Smart Security"
+        },
+        {
+            "location": "/development/#requirimientos",
+            "text": "La actual versi\u00f3n del sistema tiene los siguientes requerimientos de hardware para pre-procesamiento.  Al menos 32 GB de RAM.\nIntel core i7, 3.4 Ghz.\nAl menos 500 Gb de hd (1TB recomendado).  Requerimientos de software:  Ubuntu 14.04 LTS\nKurento Media Server 6.1.1\nMaven 3.0.5\nJava 1.8.0.131\nWeb2py\nOpenCV 2.4",
+            "title": "Requirimientos"
+        },
+        {
+            "location": "/development/#arquitectura",
+            "text": "La arquitectura para la aplicaci\u00f3n Smart Security se desarrolla con el fin de detectar eventos de riesgo basado en las adquisici\u00f3n de video desde video c\u00e1maras conectadas a una red. El video es analizado para detectar, etiquetar, almacenar y resaltar de manera autom\u00e1tica eventos de seguridad relevantes.   Para la gesti\u00f3n del video proveniente de las c\u00e1maras utilizamos  Kurento , Kurento Media Server (KMS) para ser m\u00e1s exactos. KMS esta basado en  Media Elements  y  Media Pipelines . Los primeros consisten en modulos que llevan a cabo una acci\u00f3n espec\u00edfica reciviendo o enviando streaming. Los segundos, son una cadena de elementos media. Para la aplicaci\u00f3n de seguridad hemos desarrollado un conjunto de filtros capaces de detectar objectos (personas y veh\u00edculos) en movimiento dentro de una escena, clasificar tales objectos y seguirlos. En una capa siguiente utilizaremos esta informaci\u00f3n para detectar eventos de seguridad. La informaci\u00f3n inferidad por los filtros en la fase de procesamiento es enviada al Orion Context Broker (OCB).",
+            "title": "Arquitectura"
+        },
+        {
+            "location": "/development/#backend-de-la-aplicacion-smart-security",
+            "text": "El Back End es el gestor del streaming proveniente de las c\u00e1maras. El m\u00f3dulo requiere interactuar con la interfaz de usuario con el fin de habilitar o deshabilitar capacidades del sistema, asi como para notificar al usuario los eventos detectados.  De esta forma, la principal contribuci\u00f3n de la aplicaci\u00f3n se enfoca en el desarrollo de algoritmos para detectar diferentes tipod de eventos visuales. La actual versi\u00f3n del sistema es capaz de detectar movimiento (basada en SubSENSE para detecc\u00f3n de blobs), personas y vehiculos.",
+            "title": "Backend de la aplicaci\u00f3n Smart Security"
+        },
+        {
+            "location": "/development/#frontend-de-la-aplicacion-smart-security",
+            "text": "Con el fin de visualizar toda informaci\u00f3n generada por el Backend hemos desarrolado una IGU basada en Web2py. Las principales funcionalidades son con respecto a Eventos, Gestion de usuarios, c\u00e1maras y configuraciones. La IGU dise\u00f1ada permite al usuario visualizar el flujo de video y los eventos detectado online. Otra capacidad que esta siendo desarrollada es la de b\u00fasqueda que permitira consultar los videos almacenados por el sistema.",
+            "title": "Frontend de la aplicaci\u00f3n Smart Security"
+        },
+        {
+            "location": "/about/",
+            "text": "Acerca de ...\n\n\nColaboradores\n\n\n\n\n\n\nInstituto Nacional de Astrof\u00edsica, \u00d3ptica y Electronica.\n\n\n\n\n\n\nInstituto Tecnol\u00f3gico y de Estudios Superiores de Monterrey.\n\n\n\n\n\n\nCentro Nacional de Investigaci\u00f3n y Desarrollo Tecnol\u00f3gico.",
+            "title": "Acerca de"
+        },
+        {
+            "location": "/about/#acerca-de",
+            "text": "",
+            "title": "Acerca de ..."
+        },
+        {
+            "location": "/about/#colaboradores",
+            "text": "Instituto Nacional de Astrof\u00edsica, \u00d3ptica y Electronica.    Instituto Tecnol\u00f3gico y de Estudios Superiores de Monterrey.    Centro Nacional de Investigaci\u00f3n y Desarrollo Tecnol\u00f3gico.",
+            "title": "Colaboradores"
+        }
+    ]
+}
